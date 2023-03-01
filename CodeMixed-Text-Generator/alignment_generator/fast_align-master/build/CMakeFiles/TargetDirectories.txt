@@ -1,0 +1,4 @@
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/fast_align.dir
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/atools.dir
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/edit_cache.dir
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/rebuild_cache.dir

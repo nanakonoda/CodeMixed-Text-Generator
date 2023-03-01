@@ -1,0 +1,157 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-hh8O00
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f7741/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f7741.dir/build.make CMakeFiles/cmTC_f7741.dir/build
+Building C object CMakeFiles/cmTC_f7741.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_f7741.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_f7741.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_f7741.dir/OpenMPTryFlag.c.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-hh8O00/OpenMPTryFlag.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_f7741.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_f7741/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-Gw9hYX
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9f3d3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9f3d3.dir/build.make CMakeFiles/cmTC_9f3d3.dir/build
+Building C object CMakeFiles/cmTC_9f3d3.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp=libiomp5 -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_9f3d3.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_9f3d3.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_9f3d3.dir/OpenMPTryFlag.c.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-Gw9hYX/OpenMPTryFlag.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_9f3d3.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_9f3d3/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-PK7Eih
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d054b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d054b.dir/build.make CMakeFiles/cmTC_d054b.dir/build
+Building C object CMakeFiles/cmTC_d054b.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fopenmp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_d054b.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_d054b.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_d054b.dir/OpenMPTryFlag.c.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-PK7Eih/OpenMPTryFlag.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_d054b.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_d054b/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-zdys18
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c1000/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c1000.dir/build.make CMakeFiles/cmTC_c1000.dir/build
+Building C object CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Xclang -fopenmp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-zdys18/OpenMPTryFlag.c
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.6.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-zdys18 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fopenmp -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o -x c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-zdys18/OpenMPTryFlag.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-zdys18/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c1000.dir/OpenMPTryFlag.c.o] Error 1
+make: *** [cmTC_c1000/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-nn6lVN
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_951c8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_951c8.dir/build.make CMakeFiles/cmTC_951c8.dir/build
+Building CXX object CMakeFiles/cmTC_951c8.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wall -std=c++11 -O3 -g -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_951c8.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_951c8.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_951c8.dir/OpenMPTryFlag.cpp.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-nn6lVN/OpenMPTryFlag.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libomp' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_951c8.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_951c8/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-Pjl7zi
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95fc1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95fc1.dir/build.make CMakeFiles/cmTC_95fc1.dir/build
+Building CXX object CMakeFiles/cmTC_95fc1.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wall -std=c++11 -O3 -g -fopenmp=libiomp5 -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_95fc1.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_95fc1.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_95fc1.dir/OpenMPTryFlag.cpp.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-Pjl7zi/OpenMPTryFlag.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported argument 'libiomp5' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_95fc1.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_95fc1/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-ocIhGn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3bd97/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3bd97.dir/build.make CMakeFiles/cmTC_3bd97.dir/build
+Building CXX object CMakeFiles/cmTC_3bd97.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wall -std=c++11 -O3 -g -fopenmp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_3bd97.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3bd97.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3bd97.dir/OpenMPTryFlag.cpp.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-ocIhGn/OpenMPTryFlag.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: unsupported option '-fopenmp'
+make[1]: *** [CMakeFiles/cmTC_3bd97.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_3bd97/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-yNvGCn
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_03783/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_03783.dir/build.make CMakeFiles/cmTC_03783.dir/build
+Building CXX object CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++   -Wall -std=c++11 -O3 -g -Xclang -fopenmp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -MD -MT CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o -c /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-yNvGCn/OpenMPTryFlag.cpp
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: x86_64-apple-darwin21.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx12.6.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -mllvm -extra-vectorizer-passes -fno-strict-return -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -O3 -Wall -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -std=c++11 -fdeprecated-macro -fdebug-compilation-dir=/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-yNvGCn -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -vectorize-loops -vectorize-slp -fopenmp -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o -x c++ /Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-yNvGCn/OpenMPTryFlag.cpp
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target x86_64-apple-darwin21.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+/Users/nanako/Desktop/Clinic/testing/CodeMixed-Text-Generator/CodeMixed-Text-Generator/alignment_generator/fast_align-master/build/CMakeFiles/CMakeScratch/TryCompile-yNvGCn/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_03783.dir/OpenMPTryFlag.cpp.o] Error 1
+make: *** [cmTC_03783/fast] Error 2
+
+
+
