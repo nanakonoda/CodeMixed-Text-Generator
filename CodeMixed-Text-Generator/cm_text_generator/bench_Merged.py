@@ -190,6 +190,8 @@ def changeAlignmentFormat(alignments, langOneSen, langTwoSen):
 def main(combined_data):
     global all_CM_sentences
     global linguistic_theory
+    global mappings
+
     
     all_CM_sentences = set()
     linguistic_theory = combined_data.pop()
@@ -267,8 +269,21 @@ if __name__ == "__main__":
     # sys.setprofile(tracefunc)
     with open(sys.argv[1], 'r') as f:
         data = f.read().split('\n')
+    
     res = main(data)
-    res = ['{}\t{}'.format(s[0], s[1]) for s in res]
+
+    english = data[2]
+    cm_dict = { sent : english for sent in res }
+
+    # {}/out-cm-{}-{}-{}.txt
+    dir, file_name = sys.argv[2].split("/")
+    #new_file_name = dir + "/keys-" + file_name
+    new_file_name = "/clinic/2022/proofpoint22/nanako/CodeMixed-Text-Generator/CodeMixed-Text-Generator/data/fr-to-en-gcm/keys.txt"
+    
+    with open(new_file_name, "w") as f:
+        f.write(cm_dict)
+    
+    res = ["TEST TEST TEST"]+ ['{}\t{}'.format(s[0], s[1]) for s in res]
     gcm_output = '\n'.join(res) 
     with open(sys.argv[2], 'w') as f:
         f.write(gcm_output)
